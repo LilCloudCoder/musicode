@@ -40,6 +40,4 @@ You can adjust the number of beats and tempo by editing the last line in `main.p
 generate_full_techno_song("ultimate_fluffy.mid", num_beats=64, tempo=125)
 ```
 
-## License
 
-MIT License
