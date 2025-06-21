@@ -10,7 +10,7 @@ def generate_full_techno_song(filename="ultimate_fluffy.mid", num_beats=64, temp
 
     # Instruments
     arp = pretty_midi.Instrument(program=pretty_midi.instrument_name_to_program("Electric Piano 1"))
-    bass = pretty_midi.Instrument(program=pretty_midi.instrument_name_to_program("Synth Bass 2"))
+    bass = pretty_midi.Instrument(program=pretty_midi.instrument_name_to_program("Flute"))
     flute = pretty_midi.Instrument(program=pretty_midi.instrument_name_to_program("Flute"))
     violin = pretty_midi.Instrument(program=pretty_midi.instrument_name_to_program("Violin"))
     drums = pretty_midi.Instrument(program=0, is_drum=True)
