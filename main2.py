@@ -5,7 +5,7 @@ def make_note(instr, pitch, start, end, velocity=80):
     note = pretty_midi.Note(velocity=velocity, pitch=pitch, start=start, end=end)
     instr.notes.append(note)
 
-def generate_techno_masterpiece(filename="fluffy_remix_v3.mid", num_beats=96, tempo=128):
+def generate_techno_masterpiece(filename="2.mid", num_beats=96, tempo=128):
     midi = pretty_midi.PrettyMIDI()
 
     # Instruments
